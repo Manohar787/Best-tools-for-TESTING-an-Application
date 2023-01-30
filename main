@@ -1,0 +1,48 @@
+JUnit: A Java-based framework for writing and running unit tests.
+
+Mocha: A JavaScript testing framework that runs on Node.js and in the browser.
+
+Selenium: An open-source tool for automating web application testing.
+
+TestNG: A Java-based testing framework that provides more advanced testing functionality than JUnit.
+
+Cucumber: A tool that allows you to write tests in plain English and execute them as automated tests.
+
+PHPUnit: A testing framework for PHP applications.
+
+PyTest: A testing framework for Python applications.
+
+RSpec: A testing framework for Ruby applications.
+
+NUnit: A testing framework for .NET applications.
+
+Note:-
+It's important to choose a testing tool that is well-suited to your specific needs and development environment. The best tool for you will depend on your programming language, the type of tests you need to write, and your personal preferences.
+
+Example code in Selanium Automation Testing in  PYTHON
+
+
+from selenium import webdriver
+
+# Create an instance of the webdriver
+driver = webdriver.Firefox()
+
+# Navigate to the website
+driver.get("http://www.example.com")
+
+# Find the search box element and enter a search query
+search_box = driver.find_element_by_name("q")
+search_box.send_keys("Selenium Testing")
+search_box.submit()
+
+# Check if the search results page contains the word "Selenium"
+assert "Selenium" in driver.page_source
+
+# Close the browser window
+driver.quit()
+This test opens a Firefox browser, navigates to the example.com website, enters a search query for "Selenium Testing," and checks if the word "Selenium" appears on the search results page. Finally, the test closes the browser window.
+
+
+
+
+Rege
